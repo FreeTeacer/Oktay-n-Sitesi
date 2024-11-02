@@ -25,4 +25,5 @@
     </footer>
 </body>
 </html>
-<img>
+<img src="https://github.com/FreeTeacer/Oktayin-Sitesi/blob/main/image.png" alt="Açıklama" />
+
