@@ -12,16 +12,16 @@
     </header>
     <main>
         <section>
-            <h2>Hakkında</h2>
-            <p>Bu, basit bir web sitesi örneğidir.</p>
+            <h2>Bu Siteyi Tamadresim İcin Kurdum</h2>
+            <p>Tamadres Nerdesin .</p>
         </section>
         <section>
-            <h2>İletişim</h2>
-            <p>Beni sosyal medyada takip et!</p>
+            <h2>Almanca Sınavında Kağıdı Niye Boş Bıraktın</h2>
+            <p>Necoyu Götünden Sikiyim!</p>
         </section>
     </main>
     <footer>
-        <p>Telif hakkı &copy; 2024</p>
+        <p>Bu Site Oktay Tarafından Yapılmıstır Sextintgci oktay &copy; 2024</p>
     </footer>
 </body>
 </html>
