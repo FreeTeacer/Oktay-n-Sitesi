@@ -3,25 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benim Web Sitem</title>
+    <title>Komik Web Sayfası</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Hoş Geldin!</h1>
+        <h1>Hoş Geldin, Komedi Sever!</h1>
     </header>
     <main>
         <section>
-            <h2>Hakkında</h2>
-            <p>Bu, basit bir web sitesi örneğidir.</p>
-        </section>
-        <section>
-            <h2>İletişim</h2>
-            <p>Beni sosyal medyada takip et!</p>
+            <h2>Gülme Garanti!</h2>
+            <p>Bu siteyi açtığın için seni tebrik ediyorum!</p>
+            <p>Çünkü burada gülmek zorundasın!</p>
+            <button onclick="showJoke()">Bir Şaka Göster!</button>
+            <p id="joke"></p>
         </section>
     </main>
     <footer>
-        <p>Telif hakkı &copy; 2024</p>
+        <p>Telif hakkı &copy; 2024, Gülümse ve Devam Et!</p>
     </footer>
+    <script>
+        function showJoke() {
+            const jokes = [
+                "Neden bilgisayar denize düşer? Çünkü suya girmeyi çok sever!",
+                "Bir programcı, tuvalette ne yapar? Kodu temizler!",
+                "Neden kitaplar soğuk olur? Çünkü sayfaları var!",
+            ];
+            const randomIndex = Math.floor(Math.random() * jokes.length);
+            document.getElementById('joke').innerText = jokes[randomIndex];
+        }
+    </script>
 </body>
 </html>

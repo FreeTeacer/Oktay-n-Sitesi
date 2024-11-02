@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa;
 }
 
 header {
-    background: #35424a;
+    background: #00796b;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -14,16 +14,30 @@ header {
 
 main {
     padding: 20px;
+    text-align: center;
 }
 
 h2 {
-    color: #35424a;
+    color: #00796b;
+}
+
+button {
+    background-color: #ffab00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff8f00;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #35424a;
+    background: #00796b;
     color: white;
     position: absolute;
     bottom: 0;
