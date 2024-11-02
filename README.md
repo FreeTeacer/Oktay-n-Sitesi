@@ -16,7 +16,7 @@
             <p>Tamadres Nerdesin .</p>
         </section>
         <section>
-            <h2>Almanca Sınavında Kağıdı Niye Boş Bıraktın</h2>
+            <h2>Almanca Sınavında Kağıdı Niye Boş Bıraktın basbd</h2>
             <p>Necoyu Götünden Sikiyim!</p>
         </section>
     </main>
